@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d4dc2b3bbd6a428e86f12c7742376b22 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d4dc2b3bbd6a428e86f12c7742376b22" ></div>
+        
+</body>
+<script>    
+    
+            var map_d4dc2b3bbd6a428e86f12c7742376b22 = L.map(
+                "map_d4dc2b3bbd6a428e86f12c7742376b22",
+                {
+                    center: [37.470937, 127.056922],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4304c4f4ed7c439e965e63d41122f5b0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d4dc2b3bbd6a428e86f12c7742376b22);
+        
+    
+            var marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea = L.markerClusterGroup(
+                {}
+            );
+            map_d4dc2b3bbd6a428e86f12c7742376b22.addLayer(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+            var marker_16e319742bff428cbecdfa30dd9b4392 = L.marker(
+                [37.48171713, 126.78202240000002],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_05aab19af7f74c8697a168976bee156e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a35fc494a1184827bca24949733e6799 = $(`<div id="html_a35fc494a1184827bca24949733e6799" style="width: 100.0%; height: 100.0%;">['경기도 광주시 중대동(광남초교 부근)', 2, 2, 0, 0, 2]</div>`)[0];
+            popup_05aab19af7f74c8697a168976bee156e.setContent(html_a35fc494a1184827bca24949733e6799);
+        
+
+        marker_16e319742bff428cbecdfa30dd9b4392.bindPopup(popup_05aab19af7f74c8697a168976bee156e)
+        ;
+
+        
+    
+    
+            var marker_8c73bfcc7e99419ba82cf7bbb653a0a3 = L.marker(
+                [37.48171713, 126.78202240000002],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_7414d0b0386d480db09e42e8de61e552 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06ba244d742b48dda2429a1491784ee1 = $(`<div id="html_06ba244d742b48dda2429a1491784ee1" style="width: 100.0%; height: 100.0%;">['경기도 부천시 소사구 심곡본동(부천남초교 부근)', 2, 2, 0, 2, 0]</div>`)[0];
+            popup_7414d0b0386d480db09e42e8de61e552.setContent(html_06ba244d742b48dda2429a1491784ee1);
+        
+
+        marker_8c73bfcc7e99419ba82cf7bbb653a0a3.bindPopup(popup_7414d0b0386d480db09e42e8de61e552)
+        ;
+
+        
+    
+    
+            var marker_fb986b8b873d4eb68a4ec3625c196195 = L.marker(
+                [37.35943552, 127.1607811],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_1266aeeed04a4a27beb1ba7f2c2527fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1c396f77fbf448caa1585d7b1af2422 = $(`<div id="html_a1c396f77fbf448caa1585d7b1af2422" style="width: 100.0%; height: 100.0%;">['경기도 광주시 오포읍(광명초교 부근)', 3, 3, 0, 1, 2]</div>`)[0];
+            popup_1266aeeed04a4a27beb1ba7f2c2527fa.setContent(html_a1c396f77fbf448caa1585d7b1af2422);
+        
+
+        marker_fb986b8b873d4eb68a4ec3625c196195.bindPopup(popup_1266aeeed04a4a27beb1ba7f2c2527fa)
+        ;
+
+        
+    
+    
+            var marker_f8849f63d8034060820c69645ccfe962 = L.marker(
+                [37.68361787, 127.30617099999999],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_412cc09797564a0ebf71f404214d91d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_065291e31ef5480f870ef35a0d2404a0 = $(`<div id="html_065291e31ef5480f870ef35a0d2404a0" style="width: 100.0%; height: 100.0%;">['경기도 남양주시 화도읍(가곡초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_412cc09797564a0ebf71f404214d91d2.setContent(html_065291e31ef5480f870ef35a0d2404a0);
+        
+
+        marker_f8849f63d8034060820c69645ccfe962.bindPopup(popup_412cc09797564a0ebf71f404214d91d2)
+        ;
+
+        
+    
+    
+            var marker_41369fbc7364494092f91dce6b1c1423 = L.marker(
+                [37.34476311, 126.80678529999999],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_4d04c7f431374d328c3dd8ef667da7d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b5985e237954fe68fd764b243187a36 = $(`<div id="html_6b5985e237954fe68fd764b243187a36" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(석수초교 부근', 2, 2, 0, 2, 0]</div>`)[0];
+            popup_4d04c7f431374d328c3dd8ef667da7d8.setContent(html_6b5985e237954fe68fd764b243187a36);
+        
+
+        marker_41369fbc7364494092f91dce6b1c1423.bindPopup(popup_4d04c7f431374d328c3dd8ef667da7d8)
+        ;
+
+        
+    
+    
+            var marker_073632a7f351466d92659ac7ad9c3ac7 = L.marker(
+                [37.34573113, 126.8173027],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_483e97f8b5054c88828601f535ac9715 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a3abce09e534a3e824272ffe8c22ecf = $(`<div id="html_8a3abce09e534a3e824272ffe8c22ecf" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(안산화정초교 부근)', 1, 1, 1, 0, 0]</div>`)[0];
+            popup_483e97f8b5054c88828601f535ac9715.setContent(html_8a3abce09e534a3e824272ffe8c22ecf);
+        
+
+        marker_073632a7f351466d92659ac7ad9c3ac7.bindPopup(popup_483e97f8b5054c88828601f535ac9715)
+        ;
+
+        
+    
+    
+            var marker_28a6e332face43d6a71d9fef656b0d73 = L.marker(
+                [37.29409449, 126.8688596],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_90fe9180deb440c2a435bcff799a8ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfd8271a4714495d833cf93dca2595a1 = $(`<div id="html_dfd8271a4714495d833cf93dca2595a1" style="width: 100.0%; height: 100.0%;">['경기도 안산시 상록구 본오동(본오초교 부근)', 3, 0, 0, 0, 3]</div>`)[0];
+            popup_90fe9180deb440c2a435bcff799a8ea3.setContent(html_dfd8271a4714495d833cf93dca2595a1);
+        
+
+        marker_28a6e332face43d6a71d9fef656b0d73.bindPopup(popup_90fe9180deb440c2a435bcff799a8ea3)
+        ;
+
+        
+    
+    
+            var marker_cc7d5a6735754d6fb69f9b7c5a9e367a = L.marker(
+                [37.2847344, 126.85100859999999],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_b0a7246f4cf8412e81f757317c704972 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efd6f2fac6fb4f089f9de280768039b0 = $(`<div id="html_efd6f2fac6fb4f089f9de280768039b0" style="width: 100.0%; height: 100.0%;">['경기도 안산시 상록구 사동(초당초교 부근)', 2, 2, 0, 2, 0]</div>`)[0];
+            popup_b0a7246f4cf8412e81f757317c704972.setContent(html_efd6f2fac6fb4f089f9de280768039b0);
+        
+
+        marker_cc7d5a6735754d6fb69f9b7c5a9e367a.bindPopup(popup_b0a7246f4cf8412e81f757317c704972)
+        ;
+
+        
+    
+    
+            var marker_d9ef67e7318744718f97a5ee9c043c90 = L.marker(
+                [37.28662855, 126.8611793],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_d2ae702d9a6c405287a87f5bb7675b2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfcdb9a473c64915b180ffe7caa42dfa = $(`<div id="html_dfcdb9a473c64915b180ffe7caa42dfa" style="width: 100.0%; height: 100.0%;">['경기도 안산시 상록구 본오동(이호초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_d2ae702d9a6c405287a87f5bb7675b2f.setContent(html_dfcdb9a473c64915b180ffe7caa42dfa);
+        
+
+        marker_d9ef67e7318744718f97a5ee9c043c90.bindPopup(popup_d2ae702d9a6c405287a87f5bb7675b2f)
+        ;
+
+        
+    
+    
+            var marker_e93c3f4332fe4b17b4445a0d5067a56a = L.marker(
+                [37.36392763, 126.87749769999999],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_b702a062116c4c889df37ba16159f8e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_073a4d64bd0f494c902435ae6e1b3079 = $(`<div id="html_073a4d64bd0f494c902435ae6e1b3079" style="width: 100.0%; height: 100.0%;">['경기도 안산시 상록구 수암동(안산초교 부근)', 2, 2, 0, 0, 2]</div>`)[0];
+            popup_b702a062116c4c889df37ba16159f8e6.setContent(html_073a4d64bd0f494c902435ae6e1b3079);
+        
+
+        marker_e93c3f4332fe4b17b4445a0d5067a56a.bindPopup(popup_b702a062116c4c889df37ba16159f8e6)
+        ;
+
+        
+    
+    
+            var marker_2a23d4cc046647eda3256fbafd619e1f = L.marker(
+                [37.23485875, 127.19181],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_b7a77980d3004068a791c6a33b0c8a38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75d063fe9c9e4583b39086d2b0eb2edb = $(`<div id="html_75d063fe9c9e4583b39086d2b0eb2edb" style="width: 100.0%; height: 100.0%;">['경기도 용인시 처인구 김량장동(역북초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_b7a77980d3004068a791c6a33b0c8a38.setContent(html_75d063fe9c9e4583b39086d2b0eb2edb);
+        
+
+        marker_2a23d4cc046647eda3256fbafd619e1f.bindPopup(popup_b7a77980d3004068a791c6a33b0c8a38)
+        ;
+
+        
+    
+    
+            var marker_a985a06c21ab4b6398677c0149e97789 = L.marker(
+                [37.21086852, 127.042759],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_1deebd8d09e74881aac3ff2fd1a7c07d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e0c85fbd84b46028756c1faa7bf0d9c = $(`<div id="html_5e0c85fbd84b46028756c1faa7bf0d9c" style="width: 100.0%; height: 100.0%;">['경기도 화성시 병점동(태안초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_1deebd8d09e74881aac3ff2fd1a7c07d.setContent(html_5e0c85fbd84b46028756c1faa7bf0d9c);
+        
+
+        marker_a985a06c21ab4b6398677c0149e97789.bindPopup(popup_1deebd8d09e74881aac3ff2fd1a7c07d)
+        ;
+
+        
+    
+    
+            var marker_a8c6d67dd0d04913a95cd98bfd46d413 = L.marker(
+                [37.61091579, 127.1331152],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_b2850265f5dd420ca14c25be7f6ea512 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10d00b7866a94692b531a981d876396c = $(`<div id="html_10d00b7866a94692b531a981d876396c" style="width: 100.0%; height: 100.0%;">['경기도 구리시 인창동(동인초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_b2850265f5dd420ca14c25be7f6ea512.setContent(html_10d00b7866a94692b531a981d876396c);
+        
+
+        marker_a8c6d67dd0d04913a95cd98bfd46d413.bindPopup(popup_b2850265f5dd420ca14c25be7f6ea512)
+        ;
+
+        
+    
+    
+            var marker_b2da652b75f74f3e9f4e163ef61b12d1 = L.marker(
+                [37.45073123, 127.16503190000002],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_6bb407a837c341c08dd681a78e3a085b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f153f5d08f34c17b7d0d2bd2d2109f3 = $(`<div id="html_5f153f5d08f34c17b7d0d2bd2d2109f3" style="width: 100.0%; height: 100.0%;">['경기도 성남시 중원구 은행동(중부초교 부근)', 1, 1, 1, 0, 0]</div>`)[0];
+            popup_6bb407a837c341c08dd681a78e3a085b.setContent(html_5f153f5d08f34c17b7d0d2bd2d2109f3);
+        
+
+        marker_b2da652b75f74f3e9f4e163ef61b12d1.bindPopup(popup_6bb407a837c341c08dd681a78e3a085b)
+        ;
+
+        
+    
+    
+            var marker_ef887fdf1cd34fbe95c35a69191fc25d = L.marker(
+                [37.34291283, 126.7542186],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_c2add242f5304ed2bad645b2f3e6e840 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e68ca7d046c9468e9b82e0b4f13537b8 = $(`<div id="html_e68ca7d046c9468e9b82e0b4f13537b8" style="width: 100.0%; height: 100.0%;">['경기도 시흥시 정왕동(보람유치원 부근)', 1, 1, 1, 0, 0]</div>`)[0];
+            popup_c2add242f5304ed2bad645b2f3e6e840.setContent(html_e68ca7d046c9468e9b82e0b4f13537b8);
+        
+
+        marker_ef887fdf1cd34fbe95c35a69191fc25d.bindPopup(popup_c2add242f5304ed2bad645b2f3e6e840)
+        ;
+
+        
+    
+    
+            var marker_d4a7f21a01de4b5291bb32bbbed8e4e9 = L.marker(
+                [37.34431841, 126.80547209999999],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_977cac4c84ca4ddfbe758391ae58fdd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98ecbdb88e114656aa3d47c096b60a6b = $(`<div id="html_98ecbdb88e114656aa3d47c096b60a6b" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(석수초교 부근)', 2, 2, 0, 2, 0]</div>`)[0];
+            popup_977cac4c84ca4ddfbe758391ae58fdd3.setContent(html_98ecbdb88e114656aa3d47c096b60a6b);
+        
+
+        marker_d4a7f21a01de4b5291bb32bbbed8e4e9.bindPopup(popup_977cac4c84ca4ddfbe758391ae58fdd3)
+        ;
+
+        
+    
+    
+            var marker_74e9e1acccb74911858417159dc73a8b = L.marker(
+                [37.34028128, 126.82314450000001],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_cef0f00b0df44a65844bdbd96a79f6a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32813c5eded04050a1c2e5b576eab934 = $(`<div id="html_32813c5eded04050a1c2e5b576eab934" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 와동(덕인초교 부근)', 2, 2, 0, 0, 2]</div>`)[0];
+            popup_cef0f00b0df44a65844bdbd96a79f6a5.setContent(html_32813c5eded04050a1c2e5b576eab934);
+        
+
+        marker_74e9e1acccb74911858417159dc73a8b.bindPopup(popup_cef0f00b0df44a65844bdbd96a79f6a5)
+        ;
+
+        
+    
+    
+            var marker_a17e9f9951fb440a85b0a1361fb2d137 = L.marker(
+                [37.29146077, 126.863],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_19714692978c4d81af9c04164a6b7b8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dff127bdb724f739eea44011d82a820 = $(`<div id="html_5dff127bdb724f739eea44011d82a820" style="width: 100.0%; height: 100.0%;">['경기도 안산시 상록구 본오동(본원초교 부근)', 3, 3, 0, 1, 2]</div>`)[0];
+            popup_19714692978c4d81af9c04164a6b7b8e.setContent(html_5dff127bdb724f739eea44011d82a820);
+        
+
+        marker_a17e9f9951fb440a85b0a1361fb2d137.bindPopup(popup_19714692978c4d81af9c04164a6b7b8e)
+        ;
+
+        
+    
+    
+            var marker_f2d86889c4ec4ab2add71ba0a6b8789c = L.marker(
+                [37.24130759, 127.0542557],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_ecf921b594f840c9a0deb370d17fb160 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84767b26c7e04a82b1916dad57529785 = $(`<div id="html_84767b26c7e04a82b1916dad57529785" style="width: 100.0%; height: 100.0%;">['경기도 수원시 영통구 망포동(태장초교 부근)', 2, 2, 0, 0, 2]</div>`)[0];
+            popup_ecf921b594f840c9a0deb370d17fb160.setContent(html_84767b26c7e04a82b1916dad57529785);
+        
+
+        marker_f2d86889c4ec4ab2add71ba0a6b8789c.bindPopup(popup_ecf921b594f840c9a0deb370d17fb160)
+        ;
+
+        
+    
+    
+            var marker_31a7b9dbf4db4106b92b314be466633e = L.marker(
+                [37.31100348, 126.813469],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_2d9e3bcd7b074d8d8b2167441dd3e340 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08df250e5a7b407887c8873b6128cd6e = $(`<div id="html_08df250e5a7b407887c8873b6128cd6e" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 초지동(초지초교 부근)', 2, 5, 2, 2, 1]</div>`)[0];
+            popup_2d9e3bcd7b074d8d8b2167441dd3e340.setContent(html_08df250e5a7b407887c8873b6128cd6e);
+        
+
+        marker_31a7b9dbf4db4106b92b314be466633e.bindPopup(popup_2d9e3bcd7b074d8d8b2167441dd3e340)
+        ;
+
+        
+    
+    
+            var marker_a23946568c014bc2960dd2b6cb6e6979 = L.marker(
+                [37.33160363, 126.8179389],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_5ac17b9b53094fa8820716eaf09ec7f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea6bada055f04c129677ba75b7df67e1 = $(`<div id="html_ea6bada055f04c129677ba75b7df67e1" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 와동(화랑초교 부근)', 2, 4, 0, 3, 1]</div>`)[0];
+            popup_5ac17b9b53094fa8820716eaf09ec7f8.setContent(html_ea6bada055f04c129677ba75b7df67e1);
+        
+
+        marker_a23946568c014bc2960dd2b6cb6e6979.bindPopup(popup_5ac17b9b53094fa8820716eaf09ec7f8)
+        ;
+
+        
+    
+    
+            var marker_2805ee1fd6ca44f090941c26d9219331 = L.marker(
+                [37.12655474, 126.9176783],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_ecaa9a4a3ca24d09b1c09c83b00f582b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_122221acfa7c4131aee37f6d259b7105 = $(`<div id="html_122221acfa7c4131aee37f6d259b7105" style="width: 100.0%; height: 100.0%;">['경기도 화성시 향남읍(한울초교 부근)', 1, 1, 1, 0, 0]</div>`)[0];
+            popup_ecaa9a4a3ca24d09b1c09c83b00f582b.setContent(html_122221acfa7c4131aee37f6d259b7105);
+        
+
+        marker_2805ee1fd6ca44f090941c26d9219331.bindPopup(popup_ecaa9a4a3ca24d09b1c09c83b00f582b)
+        ;
+
+        
+    
+    
+            var marker_af30c7a2e3ba4f8592bc9e0c104651af = L.marker(
+                [37.3363414, 126.83051609999998],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_52ac68fab6384735ada3109e940ed23f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcc27d9d043f4d64be269c33711ebbe3 = $(`<div id="html_fcc27d9d043f4d64be269c33711ebbe3" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 와동(와동초교 부근)', 2, 2, 0, 0, 2]</div>`)[0];
+            popup_52ac68fab6384735ada3109e940ed23f.setContent(html_fcc27d9d043f4d64be269c33711ebbe3);
+        
+
+        marker_af30c7a2e3ba4f8592bc9e0c104651af.bindPopup(popup_52ac68fab6384735ada3109e940ed23f)
+        ;
+
+        
+    
+    
+            var marker_b55a852997764431a89ebbeb4241788a = L.marker(
+                [37.29416171, 127.4333217],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_a682b988a6834ed38ba8c4536e981df8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d2cdc8920544f45ace9e32ce3aa4a68 = $(`<div id="html_4d2cdc8920544f45ace9e32ce3aa4a68" style="width: 100.0%; height: 100.0%;">['경기도 이천시 송정동(송정초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_a682b988a6834ed38ba8c4536e981df8.setContent(html_4d2cdc8920544f45ace9e32ce3aa4a68);
+        
+
+        marker_b55a852997764431a89ebbeb4241788a.bindPopup(popup_a682b988a6834ed38ba8c4536e981df8)
+        ;
+
+        
+    
+    
+            var marker_d01d95d838d54b5fabaac1fb6310f2f3 = L.marker(
+                [37.48121137, 126.7818576],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_ebc41a379eb344e5a6eb045b6fe50cdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b0440e863c7437982f0204cc1e9a949 = $(`<div id="html_0b0440e863c7437982f0204cc1e9a949" style="width: 100.0%; height: 100.0%;">['경기도 부천시 소사구 심곡본동(부천남초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_ebc41a379eb344e5a6eb045b6fe50cdd.setContent(html_0b0440e863c7437982f0204cc1e9a949);
+        
+
+        marker_d01d95d838d54b5fabaac1fb6310f2f3.bindPopup(popup_ebc41a379eb344e5a6eb045b6fe50cdd)
+        ;
+
+        
+    
+    
+            var marker_47cd7cfd12784414a15c5254889f7388 = L.marker(
+                [37.34507455, 126.8153763],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_4e56fc7cb4da4d05b15c5025f2ffff14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5f769f1581b4bc08ab063b3a72a949b = $(`<div id="html_a5f769f1581b4bc08ab063b3a72a949b" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(안산화정초교 부근)', 2, 2, 0, 0, 2]</div>`)[0];
+            popup_4e56fc7cb4da4d05b15c5025f2ffff14.setContent(html_a5f769f1581b4bc08ab063b3a72a949b);
+        
+
+        marker_47cd7cfd12784414a15c5254889f7388.bindPopup(popup_4e56fc7cb4da4d05b15c5025f2ffff14)
+        ;
+
+        
+    
+    
+            var marker_09f6a1802d71480b93cc9cc79d721019 = L.marker(
+                [37.83379445, 127.14431040000001],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_3a110fe529a84edf85f1ea4713598d1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c20e3ccd61e8401ab137e02411ba05c0 = $(`<div id="html_c20e3ccd61e8401ab137e02411ba05c0" style="width: 100.0%; height: 100.0%;">['경기도 포천시 소흘읍(태봉초교 부근)', 2, 3, 0, 0, 3]</div>`)[0];
+            popup_3a110fe529a84edf85f1ea4713598d1d.setContent(html_c20e3ccd61e8401ab137e02411ba05c0);
+        
+
+        marker_09f6a1802d71480b93cc9cc79d721019.bindPopup(popup_3a110fe529a84edf85f1ea4713598d1d)
+        ;
+
+        
+    
+    
+            var marker_3f2fd4474d924092a36fea069f7479d7 = L.marker(
+                [37.51855209, 126.8071534],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_1289d7502ec340ff98d5a887b3c952e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89d862a0f65c4a6dbf517efc91ec65a0 = $(`<div id="html_89d862a0f65c4a6dbf517efc91ec65a0" style="width: 100.0%; height: 100.0%;">['경기도 부천시 오정구 원종동(원종초교 부근)', 1, 1, 1, 0, 0]</div>`)[0];
+            popup_1289d7502ec340ff98d5a887b3c952e0.setContent(html_89d862a0f65c4a6dbf517efc91ec65a0);
+        
+
+        marker_3f2fd4474d924092a36fea069f7479d7.bindPopup(popup_1289d7502ec340ff98d5a887b3c952e0)
+        ;
+
+        
+    
+    
+            var marker_6071bca97d4542d2b1fbe737031ebce8 = L.marker(
+                [37.26782599, 126.95695729999998],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_b66d0911050d42598f47ebb5181252a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e086da0d56604b4d96a63fc6d3fbb590 = $(`<div id="html_e086da0d56604b4d96a63fc6d3fbb590" style="width: 100.0%; height: 100.0%;">['경기도 수원시 권선구 고색동(호매실초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_b66d0911050d42598f47ebb5181252a7.setContent(html_e086da0d56604b4d96a63fc6d3fbb590);
+        
+
+        marker_6071bca97d4542d2b1fbe737031ebce8.bindPopup(popup_b66d0911050d42598f47ebb5181252a7)
+        ;
+
+        
+    
+    
+            var marker_16f41601caed4cc2a7eaa988effe8d8f = L.marker(
+                [37.34488927, 126.8154565],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_2647c8b4ceb84eb693903be740c2ffca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb1edb0a1c6f458c953f5581a8da9466 = $(`<div id="html_fb1edb0a1c6f458c953f5581a8da9466" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(안산화정초교 부근)', 3, 3, 0, 3, 0]</div>`)[0];
+            popup_2647c8b4ceb84eb693903be740c2ffca.setContent(html_fb1edb0a1c6f458c953f5581a8da9466);
+        
+
+        marker_16f41601caed4cc2a7eaa988effe8d8f.bindPopup(popup_2647c8b4ceb84eb693903be740c2ffca)
+        ;
+
+        
+    
+    
+            var marker_6aa70af9f4544308b5862f0d60d606db = L.marker(
+                [37.39356222, 126.97956129999999],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_2212e63d32474328aac4a13e934c3557 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46352c5eeed846daa5d53a89a35d3552 = $(`<div id="html_46352c5eeed846daa5d53a89a35d3552" style="width: 100.0%; height: 100.0%;">['경기도 안양시 동안구 평촌동(벌말초교 부근)', 2, 2, 0, 2, 0]</div>`)[0];
+            popup_2212e63d32474328aac4a13e934c3557.setContent(html_46352c5eeed846daa5d53a89a35d3552);
+        
+
+        marker_6aa70af9f4544308b5862f0d60d606db.bindPopup(popup_2212e63d32474328aac4a13e934c3557)
+        ;
+
+        
+    
+    
+            var marker_73dd6693ce134b31899c082bc774c3af = L.marker(
+                [37.14436197, 127.04920870000001],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_b6d683987bd34e7788771804a0b268f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e66ecf45d9a2471fb6001d75d5946775 = $(`<div id="html_e66ecf45d9a2471fb6001d75d5946775" style="width: 100.0%; height: 100.0%;">['경기도 오산시 가수동(오산초교 부근)', 2, 2, 0, 0, 2]</div>`)[0];
+            popup_b6d683987bd34e7788771804a0b268f7.setContent(html_e66ecf45d9a2471fb6001d75d5946775);
+        
+
+        marker_73dd6693ce134b31899c082bc774c3af.bindPopup(popup_b6d683987bd34e7788771804a0b268f7)
+        ;
+
+        
+    
+    
+            var marker_a14b408faae34dcd9f73a930a7da6ce0 = L.marker(
+                [37.05840608, 127.0700284],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_aa7114ab20f243119d30b838a48a1f36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76cf8be252224203ac285f2f5deaa887 = $(`<div id="html_76cf8be252224203ac285f2f5deaa887" style="width: 100.0%; height: 100.0%;">['경기도 평택시 이충동(반지초교 부근)', 2, 2, 0, 2, 0]</div>`)[0];
+            popup_aa7114ab20f243119d30b838a48a1f36.setContent(html_76cf8be252224203ac285f2f5deaa887);
+        
+
+        marker_a14b408faae34dcd9f73a930a7da6ce0.bindPopup(popup_aa7114ab20f243119d30b838a48a1f36)
+        ;
+
+        
+    
+    
+            var marker_c5e13ef5b24c40b7aa7a95a160d89610 = L.marker(
+                [37.20151717, 127.05597720000002],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_9e535eb44ced4518bdbe1e7abc2f8db6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46ee4dd86ea947d78b7c2ddbfa76b9b5 = $(`<div id="html_46ee4dd86ea947d78b7c2ddbfa76b9b5" style="width: 100.0%; height: 100.0%;">['경기도 화성시 능동(푸른초교 부근)', 1, 1, 1, 0, 0]</div>`)[0];
+            popup_9e535eb44ced4518bdbe1e7abc2f8db6.setContent(html_46ee4dd86ea947d78b7c2ddbfa76b9b5);
+        
+
+        marker_c5e13ef5b24c40b7aa7a95a160d89610.bindPopup(popup_9e535eb44ced4518bdbe1e7abc2f8db6)
+        ;
+
+        
+    
+    
+            var marker_017d66d72a654db8b4ec581df661eeb1 = L.marker(
+                [37.4331996, 126.886261],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_cbdfe3320f6a432790dea99c94d2dcb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bcce03d251f464ba975ed5ac89df0cc = $(`<div id="html_0bcce03d251f464ba975ed5ac89df0cc" style="width: 100.0%; height: 100.0%;">['경기도 광명시 소하동(충현초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_cbdfe3320f6a432790dea99c94d2dcb2.setContent(html_0bcce03d251f464ba975ed5ac89df0cc);
+        
+
+        marker_017d66d72a654db8b4ec581df661eeb1.bindPopup(popup_cbdfe3320f6a432790dea99c94d2dcb2)
+        ;
+
+        
+    
+    
+            var marker_500557ac5ef84f2586897d0502692f0d = L.marker(
+                [37.36770483, 126.9332172],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_df1b4a03425d47c88727bc9bcff2a467 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71c1a574efb64742b4cd7051bb6186e9 = $(`<div id="html_71c1a574efb64742b4cd7051bb6186e9" style="width: 100.0%; height: 100.0%;">['경기도 군포시 산본동(산본초교입구사거리 부근)', 2, 3, 0, 0, 3]</div>`)[0];
+            popup_df1b4a03425d47c88727bc9bcff2a467.setContent(html_71c1a574efb64742b4cd7051bb6186e9);
+        
+
+        marker_500557ac5ef84f2586897d0502692f0d.bindPopup(popup_df1b4a03425d47c88727bc9bcff2a467)
+        ;
+
+        
+    
+    
+            var marker_4c2347911db64932874b8e71447c2fd9 = L.marker(
+                [37.49002274, 126.81671019999999],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_2e05e3cbf8924e18b6bb173995566742 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_501d32966f9e4b11b9f753e596b22e16 = $(`<div id="html_501d32966f9e4b11b9f753e596b22e16" style="width: 100.0%; height: 100.0%;">['경기도 부천시 원미구 역곡동(동곡초교 부근)', 2, 2, 1, 1, 0]</div>`)[0];
+            popup_2e05e3cbf8924e18b6bb173995566742.setContent(html_501d32966f9e4b11b9f753e596b22e16);
+        
+
+        marker_4c2347911db64932874b8e71447c2fd9.bindPopup(popup_2e05e3cbf8924e18b6bb173995566742)
+        ;
+
+        
+    
+    
+            var marker_d084b2dac12c4d9eb5de3e5ad7ebecc0 = L.marker(
+                [37.68649953, 126.76720290000002],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_80589df3cfa8420cb0b7d71b72438fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23ad607043204c9c8fc103813091d2f2 = $(`<div id="html_23ad607043204c9c8fc103813091d2f2" style="width: 100.0%; height: 100.0%;">['경기도 고양시 일산서구 일산동(한뫼초교 부근)', 3, 4, 0, 1, 2]</div>`)[0];
+            popup_80589df3cfa8420cb0b7d71b72438fe0.setContent(html_23ad607043204c9c8fc103813091d2f2);
+        
+
+        marker_d084b2dac12c4d9eb5de3e5ad7ebecc0.bindPopup(popup_80589df3cfa8420cb0b7d71b72438fe0)
+        ;
+
+        
+    
+    
+            var marker_5ff80d45793a4484bad47c820c7bf01b = L.marker(
+                [37.600782099999996, 127.15568859999999],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_e714107c20934c99b107c5dc2e84d6c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7a15174120146e8ae6e3f488e7e0285 = $(`<div id="html_b7a15174120146e8ae6e3f488e7e0285" style="width: 100.0%; height: 100.0%;">['경기도 남양주시 가운동(가운초교 부근)', 2, 2, 0, 0, 2]</div>`)[0];
+            popup_e714107c20934c99b107c5dc2e84d6c9.setContent(html_b7a15174120146e8ae6e3f488e7e0285);
+        
+
+        marker_5ff80d45793a4484bad47c820c7bf01b.bindPopup(popup_e714107c20934c99b107c5dc2e84d6c9)
+        ;
+
+        
+    
+    
+            var marker_8b176f08ec96495d9124b91780e0e364 = L.marker(
+                [37.490115, 126.7601216],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_f3fc82ef163b4b2da4f20b81c779c7ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2e77905ca4041ac99bb58cb86de43f5 = $(`<div id="html_a2e77905ca4041ac99bb58cb86de43f5" style="width: 100.0%; height: 100.0%;">['경기도 부천시 원미구 상동(송내초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_f3fc82ef163b4b2da4f20b81c779c7ea.setContent(html_a2e77905ca4041ac99bb58cb86de43f5);
+        
+
+        marker_8b176f08ec96495d9124b91780e0e364.bindPopup(popup_f3fc82ef163b4b2da4f20b81c779c7ea)
+        ;
+
+        
+    
+    
+            var marker_7407736ac4a64cba8d895036e118d67a = L.marker(
+                [37.26266404, 127.04464750000001],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_bf3a59d52b7343acbd29d2d66243dab4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca29575cfe6c48789fedd1334bf4bb88 = $(`<div id="html_ca29575cfe6c48789fedd1334bf4bb88" style="width: 100.0%; height: 100.0%;">['경기도 수원시 영통구 매탄동(매탄초교 효동초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_bf3a59d52b7343acbd29d2d66243dab4.setContent(html_ca29575cfe6c48789fedd1334bf4bb88);
+        
+
+        marker_7407736ac4a64cba8d895036e118d67a.bindPopup(popup_bf3a59d52b7343acbd29d2d66243dab4)
+        ;
+
+        
+    
+    
+            var marker_c9353b2dd16d4abb92fae804806261fc = L.marker(
+                [37.3314114, 126.81807309999999],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_8e385fca4d544997a7787b0eab45b153 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61ec5fb8742a4179adbbfd584a5a077e = $(`<div id="html_61ec5fb8742a4179adbbfd584a5a077e" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(화랑초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_8e385fca4d544997a7787b0eab45b153.setContent(html_61ec5fb8742a4179adbbfd584a5a077e);
+        
+
+        marker_c9353b2dd16d4abb92fae804806261fc.bindPopup(popup_8e385fca4d544997a7787b0eab45b153)
+        ;
+
+        
+    
+    
+            var marker_83f31e9d118644f788b85a00d8ce50f4 = L.marker(
+                [37.3453435, 126.8164611],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_18bb98c1a9364327a6358e8c1eb520c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7435fdffb65f435c9831ff42c5768a3e = $(`<div id="html_7435fdffb65f435c9831ff42c5768a3e" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(안산화정초교 부근)', 3, 3, 0, 2, 1]</div>`)[0];
+            popup_18bb98c1a9364327a6358e8c1eb520c7.setContent(html_7435fdffb65f435c9831ff42c5768a3e);
+        
+
+        marker_83f31e9d118644f788b85a00d8ce50f4.bindPopup(popup_18bb98c1a9364327a6358e8c1eb520c7)
+        ;
+
+        
+    
+    
+            var marker_28ae780966234df5af85a29a907be380 = L.marker(
+                [37.72334512, 127.05349679999999],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_c082a09e300e405eb7e5ef245b2f62a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2841ea6e5a9d428bb2a5d99714a01e36 = $(`<div id="html_2841ea6e5a9d428bb2a5d99714a01e36" style="width: 100.0%; height: 100.0%;">['경기도 의정부시 장암동(동암초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_c082a09e300e405eb7e5ef245b2f62a0.setContent(html_2841ea6e5a9d428bb2a5d99714a01e36);
+        
+
+        marker_28ae780966234df5af85a29a907be380.bindPopup(popup_c082a09e300e405eb7e5ef245b2f62a0)
+        ;
+
+        
+    
+    
+            var marker_7fea0fdf8b7f4ab6958b7adf88069ad2 = L.marker(
+                [37.05039551, 127.05735659999999],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_5588097e1e4c4c6a9360b60db5cea297 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98b9f529e9484e1d9ed8e0a54634795b = $(`<div id="html_98b9f529e9484e1d9ed8e0a54634795b" style="width: 100.0%; height: 100.0%;">['경기도 평택시 장당동(장당초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_5588097e1e4c4c6a9360b60db5cea297.setContent(html_98b9f529e9484e1d9ed8e0a54634795b);
+        
+
+        marker_7fea0fdf8b7f4ab6958b7adf88069ad2.bindPopup(popup_5588097e1e4c4c6a9360b60db5cea297)
+        ;
+
+        
+    
+    
+            var marker_6353a93cb555407aa31f8bdc0ec8f20c = L.marker(
+                [37.3722549, 127.24749409999998],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_a219319ff67b4f1f948267b98025e533 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c4c7cf629bf44189b5da1f46701b2c6 = $(`<div id="html_0c4c7cf629bf44189b5da1f46701b2c6" style="width: 100.0%; height: 100.0%;">['경기도 광주시 오포읍(매곡초교 부근)', 2, 2, 0, 1, 1]</div>`)[0];
+            popup_a219319ff67b4f1f948267b98025e533.setContent(html_0c4c7cf629bf44189b5da1f46701b2c6);
+        
+
+        marker_6353a93cb555407aa31f8bdc0ec8f20c.bindPopup(popup_a219319ff67b4f1f948267b98025e533)
+        ;
+
+        
+    
+    
+            var marker_e691ae8b1f114eca872aa45fac74bed1 = L.marker(
+                [37.33771712, 126.8299169],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_c58353c9bbfa40f28c3784fdb583cfae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2948b83bc74740ab90f449f633db1abf = $(`<div id="html_2948b83bc74740ab90f449f633db1abf" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 와동(와동초교 부근)', 2, 6, 0, 0, 6]</div>`)[0];
+            popup_c58353c9bbfa40f28c3784fdb583cfae.setContent(html_2948b83bc74740ab90f449f633db1abf);
+        
+
+        marker_e691ae8b1f114eca872aa45fac74bed1.bindPopup(popup_c58353c9bbfa40f28c3784fdb583cfae)
+        ;
+
+        
+    
+    
+            var marker_a11eae43681c45dc9a556867332261f0 = L.marker(
+                [37.47151563, 127.31653100000001],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_83b2f1a7980b4a56bdf705aaf2c9ba44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db1ed14e912c477cb216345ff5c2a79f = $(`<div id="html_db1ed14e912c477cb216345ff5c2a79f" style="width: 100.0%; height: 100.0%;">['경기도 광주시 퇴촌면(도수초교 부근)', 2, 2, 0, 2, 0]</div>`)[0];
+            popup_83b2f1a7980b4a56bdf705aaf2c9ba44.setContent(html_db1ed14e912c477cb216345ff5c2a79f);
+        
+
+        marker_a11eae43681c45dc9a556867332261f0.bindPopup(popup_83b2f1a7980b4a56bdf705aaf2c9ba44)
+        ;
+
+        
+    
+    
+            var marker_d0b29d5e876a44d3b5f65ebfad85617b = L.marker(
+                [37.33982962, 126.80018340000001],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_748818d77a4b4eec9a4f5a37bbf9abca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da9b6cdd9be949d9beb0d45d81ec82e2 = $(`<div id="html_da9b6cdd9be949d9beb0d45d81ec82e2" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(선일초교 부근)', 2, 2, 0, 0, 2]</div>`)[0];
+            popup_748818d77a4b4eec9a4f5a37bbf9abca.setContent(html_da9b6cdd9be949d9beb0d45d81ec82e2);
+        
+
+        marker_d0b29d5e876a44d3b5f65ebfad85617b.bindPopup(popup_748818d77a4b4eec9a4f5a37bbf9abca)
+        ;
+
+        
+    
+    
+            var marker_fd883045e31446329b582573cf6bc67a = L.marker(
+                [37.0586398, 127.05728959999999],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_fa841b9fd0db4606b28dbcd5f4bef3b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_475e4b6ad4294e68abd0e0c382d4690e = $(`<div id="html_475e4b6ad4294e68abd0e0c382d4690e" style="width: 100.0%; height: 100.0%;">['경기도 평택시 서정동(서정리초교 부근)', 1, 1, 1, 0, 0]</div>`)[0];
+            popup_fa841b9fd0db4606b28dbcd5f4bef3b5.setContent(html_475e4b6ad4294e68abd0e0c382d4690e);
+        
+
+        marker_fd883045e31446329b582573cf6bc67a.bindPopup(popup_fa841b9fd0db4606b28dbcd5f4bef3b5)
+        ;
+
+        
+    
+    
+            var marker_0682d9239f684190ab762282267e2f9f = L.marker(
+                [37.48815658, 126.8678716],
+                {}
+            ).addTo(marker_cluster_fd1ab01c89124dd19016ef4bdc2f39ea);
+        
+    
+        var popup_ad0676e326fc4ff8932085fcf2bdddc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6881ec74888d4f0ab9096cfe751a2966 = $(`<div id="html_6881ec74888d4f0ab9096cfe751a2966" style="width: 100.0%; height: 100.0%;">['경기도 광명시 철산동(광명북초교 부근)', 2, 2, 0, 2, 0]</div>`)[0];
+            popup_ad0676e326fc4ff8932085fcf2bdddc2.setContent(html_6881ec74888d4f0ab9096cfe751a2966);
+        
+
+        marker_0682d9239f684190ab762282267e2f9f.bindPopup(popup_ad0676e326fc4ff8932085fcf2bdddc2)
+        ;
+
+        
+    
+</script>

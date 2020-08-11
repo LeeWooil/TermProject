@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f7c5e6e2a9554dde84050ac3d80061b7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f7c5e6e2a9554dde84050ac3d80061b7" ></div>
+        
+</body>
+<script>    
+    
+            var map_f7c5e6e2a9554dde84050ac3d80061b7 = L.map(
+                "map_f7c5e6e2a9554dde84050ac3d80061b7",
+                {
+                    center: [37.470493, 127.057265],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_514f78f455c042ff9eff82c4625b3ebb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f7c5e6e2a9554dde84050ac3d80061b7);
+        
+    
+            var marker_cluster_9d841ea165d44b489dffcff7e7eeee15 = L.markerClusterGroup(
+                {}
+            );
+            map_f7c5e6e2a9554dde84050ac3d80061b7.addLayer(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+            var circle_marker_cb0ccf8dd9574952bf4c4da497c95716 = L.circleMarker(
+                [37.393969668866, 127.231344945814],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_fd4c42256d7c42aa8cef4f7c7c9d1162 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18f2ea857d764e0dbe4cc22992a2a9ae = $(`<div id="html_18f2ea857d764e0dbe4cc22992a2a9ae" style="width: 100.0%; height: 100.0%;">['경기도 광주시 중대동(광남초교 부근)']</div>`)[0];
+            popup_fd4c42256d7c42aa8cef4f7c7c9d1162.setContent(html_18f2ea857d764e0dbe4cc22992a2a9ae);
+        
+
+        circle_marker_cb0ccf8dd9574952bf4c4da497c95716.bindPopup(popup_fd4c42256d7c42aa8cef4f7c7c9d1162)
+        ;
+
+        
+    
+    
+            var circle_marker_6929d398045d480c966358174ed229d5 = L.circleMarker(
+                [37.481717125246, 126.782022384427],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_697f79c8b84a41e48ad8ed52398bfc61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2bbadbc35d64e058d57dd965a107c81 = $(`<div id="html_f2bbadbc35d64e058d57dd965a107c81" style="width: 100.0%; height: 100.0%;">['경기도 부천시 소사구 심곡본동(부천남초교 부근)']</div>`)[0];
+            popup_697f79c8b84a41e48ad8ed52398bfc61.setContent(html_f2bbadbc35d64e058d57dd965a107c81);
+        
+
+        circle_marker_6929d398045d480c966358174ed229d5.bindPopup(popup_697f79c8b84a41e48ad8ed52398bfc61)
+        ;
+
+        
+    
+    
+            var circle_marker_d769bbc389404c239f695f4b8f5e914d = L.circleMarker(
+                [37.359435520634, 127.16078114063801],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_c9ded71cf32642799bcfe889ea130b67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a258cccca98a4259a6eabb9e409de447 = $(`<div id="html_a258cccca98a4259a6eabb9e409de447" style="width: 100.0%; height: 100.0%;">['경기도 광주시 오포읍(광명초교 부근)']</div>`)[0];
+            popup_c9ded71cf32642799bcfe889ea130b67.setContent(html_a258cccca98a4259a6eabb9e409de447);
+        
+
+        circle_marker_d769bbc389404c239f695f4b8f5e914d.bindPopup(popup_c9ded71cf32642799bcfe889ea130b67)
+        ;
+
+        
+    
+    
+            var circle_marker_366e408f5dfe442db037b0ff9c7f2fd3 = L.circleMarker(
+                [37.683617867171996, 127.30617102037701],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_d77ec30574e44f3f8497b1e849f45434 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54a5e186aa8f46b29a0811e67e174233 = $(`<div id="html_54a5e186aa8f46b29a0811e67e174233" style="width: 100.0%; height: 100.0%;">['경기도 남양주시 화도읍(가곡초교 부근)']</div>`)[0];
+            popup_d77ec30574e44f3f8497b1e849f45434.setContent(html_54a5e186aa8f46b29a0811e67e174233);
+        
+
+        circle_marker_366e408f5dfe442db037b0ff9c7f2fd3.bindPopup(popup_d77ec30574e44f3f8497b1e849f45434)
+        ;
+
+        
+    
+    
+            var circle_marker_dec66ad71c4345a3a87c93c614b713fa = L.circleMarker(
+                [37.344763109331005, 126.806785284414],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_b817d21e9c1f47ee8b700475138b761e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7337a1c8fe314d70a6d67bd86d2d2407 = $(`<div id="html_7337a1c8fe314d70a6d67bd86d2d2407" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(석수초교 부근)']</div>`)[0];
+            popup_b817d21e9c1f47ee8b700475138b761e.setContent(html_7337a1c8fe314d70a6d67bd86d2d2407);
+        
+
+        circle_marker_dec66ad71c4345a3a87c93c614b713fa.bindPopup(popup_b817d21e9c1f47ee8b700475138b761e)
+        ;
+
+        
+    
+    
+            var circle_marker_15b6ec7b77544ba8bd66aac4097267f5 = L.circleMarker(
+                [37.345731130588, 126.81730269116699],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_41834950a3dd4da780df94f44436d45d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e46afa46f92b433c91f53a3613427a5d = $(`<div id="html_e46afa46f92b433c91f53a3613427a5d" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(안산화정초교 부근)']</div>`)[0];
+            popup_41834950a3dd4da780df94f44436d45d.setContent(html_e46afa46f92b433c91f53a3613427a5d);
+        
+
+        circle_marker_15b6ec7b77544ba8bd66aac4097267f5.bindPopup(popup_41834950a3dd4da780df94f44436d45d)
+        ;
+
+        
+    
+    
+            var circle_marker_238d1449e2ff4dddb3c3bac6bcb3c803 = L.circleMarker(
+                [37.294094485973, 126.868859590199],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_5010517cf1e84478b3e7a05f1e2b328c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2713e30172194a43a636d99c7ed7304d = $(`<div id="html_2713e30172194a43a636d99c7ed7304d" style="width: 100.0%; height: 100.0%;">['경기도 안산시 상록구 본오동(본오초교 부근)']</div>`)[0];
+            popup_5010517cf1e84478b3e7a05f1e2b328c.setContent(html_2713e30172194a43a636d99c7ed7304d);
+        
+
+        circle_marker_238d1449e2ff4dddb3c3bac6bcb3c803.bindPopup(popup_5010517cf1e84478b3e7a05f1e2b328c)
+        ;
+
+        
+    
+    
+            var circle_marker_b64df2dbe0ab4cff8de9b7ba3770edc5 = L.circleMarker(
+                [37.284734397875, 126.851008602466],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_8a1d1853e49f4bb19b92d59afd844d99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab481a8bfe09446e919164191b4e4c14 = $(`<div id="html_ab481a8bfe09446e919164191b4e4c14" style="width: 100.0%; height: 100.0%;">['경기도 안산시 상록구 사동(초당초교 부근)']</div>`)[0];
+            popup_8a1d1853e49f4bb19b92d59afd844d99.setContent(html_ab481a8bfe09446e919164191b4e4c14);
+        
+
+        circle_marker_b64df2dbe0ab4cff8de9b7ba3770edc5.bindPopup(popup_8a1d1853e49f4bb19b92d59afd844d99)
+        ;
+
+        
+    
+    
+            var circle_marker_ac10d03cd61a4d4988fa8689581e1129 = L.circleMarker(
+                [37.286628549969, 126.86117932416799],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_dbb9ca06240a426b863e6a74e6a74c98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_445aca9f0cc641e8a9edb9bd0eaebb44 = $(`<div id="html_445aca9f0cc641e8a9edb9bd0eaebb44" style="width: 100.0%; height: 100.0%;">['경기도 안산시 상록구 본오동(이호초교 부근)']</div>`)[0];
+            popup_dbb9ca06240a426b863e6a74e6a74c98.setContent(html_445aca9f0cc641e8a9edb9bd0eaebb44);
+        
+
+        circle_marker_ac10d03cd61a4d4988fa8689581e1129.bindPopup(popup_dbb9ca06240a426b863e6a74e6a74c98)
+        ;
+
+        
+    
+    
+            var circle_marker_ebcf9a1a873240aabf0d6a4f840e41ec = L.circleMarker(
+                [37.363927634254, 126.87749774212799],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_7756d3a9d4874f888af3c39873268d69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_606b203a2ae04dda8b5e5ec019250397 = $(`<div id="html_606b203a2ae04dda8b5e5ec019250397" style="width: 100.0%; height: 100.0%;">['경기도 안산시 상록구 수암동(안산초교 부근)']</div>`)[0];
+            popup_7756d3a9d4874f888af3c39873268d69.setContent(html_606b203a2ae04dda8b5e5ec019250397);
+        
+
+        circle_marker_ebcf9a1a873240aabf0d6a4f840e41ec.bindPopup(popup_7756d3a9d4874f888af3c39873268d69)
+        ;
+
+        
+    
+    
+            var circle_marker_3d16c81e29444372963c573b444e402c = L.circleMarker(
+                [37.234858754429, 127.191809999533],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_915c8f9a530d44b3a9ab1de3a4694cb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e41a90b8ac84f51a2492ab7d61da79c = $(`<div id="html_4e41a90b8ac84f51a2492ab7d61da79c" style="width: 100.0%; height: 100.0%;">['경기도 용인시 처인구 김량장동(역북초교 부근)']</div>`)[0];
+            popup_915c8f9a530d44b3a9ab1de3a4694cb1.setContent(html_4e41a90b8ac84f51a2492ab7d61da79c);
+        
+
+        circle_marker_3d16c81e29444372963c573b444e402c.bindPopup(popup_915c8f9a530d44b3a9ab1de3a4694cb1)
+        ;
+
+        
+    
+    
+            var circle_marker_ce2bfcff537c4939bcb324389fcb7bce = L.circleMarker(
+                [37.210868524963004, 127.042759000429],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_dfdd324d2a044b5685ac5614e62263ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ae20e8933954dd193da46351bb91a93 = $(`<div id="html_0ae20e8933954dd193da46351bb91a93" style="width: 100.0%; height: 100.0%;">['경기도 화성시 병점동(태안초교 부근)']</div>`)[0];
+            popup_dfdd324d2a044b5685ac5614e62263ff.setContent(html_0ae20e8933954dd193da46351bb91a93);
+        
+
+        circle_marker_ce2bfcff537c4939bcb324389fcb7bce.bindPopup(popup_dfdd324d2a044b5685ac5614e62263ff)
+        ;
+
+        
+    
+    
+            var circle_marker_af6bb6cc81214a449ac7204461b94dfe = L.circleMarker(
+                [37.610915785336, 127.13311523897801],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_1852684c9d864439a3d313666005bdb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8660b5a36544f719888e6080115a6b4 = $(`<div id="html_d8660b5a36544f719888e6080115a6b4" style="width: 100.0%; height: 100.0%;">['경기도 구리시 인창동(동인초교 부근)']</div>`)[0];
+            popup_1852684c9d864439a3d313666005bdb5.setContent(html_d8660b5a36544f719888e6080115a6b4);
+        
+
+        circle_marker_af6bb6cc81214a449ac7204461b94dfe.bindPopup(popup_1852684c9d864439a3d313666005bdb5)
+        ;
+
+        
+    
+    
+            var circle_marker_2c0ee4d1f1914a7bb4f2b61c32c04447 = L.circleMarker(
+                [37.450731226965, 127.165031940972],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_02c1c29a6c2d44afba9899e97c2671b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a2b3ad798d940cc996edc3ec06423b5 = $(`<div id="html_0a2b3ad798d940cc996edc3ec06423b5" style="width: 100.0%; height: 100.0%;">['경기도 성남시 중원구 은행동(중부초교 부근)']</div>`)[0];
+            popup_02c1c29a6c2d44afba9899e97c2671b6.setContent(html_0a2b3ad798d940cc996edc3ec06423b5);
+        
+
+        circle_marker_2c0ee4d1f1914a7bb4f2b61c32c04447.bindPopup(popup_02c1c29a6c2d44afba9899e97c2671b6)
+        ;
+
+        
+    
+    
+            var circle_marker_081f111ad66b433786f83282bd56d732 = L.circleMarker(
+                [37.342912826167, 126.754218608603],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_6905a161393543e5a1530b97575a908f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9df86bc649e43f6833e384bd3b8c58b = $(`<div id="html_d9df86bc649e43f6833e384bd3b8c58b" style="width: 100.0%; height: 100.0%;">['경기도 시흥시 정왕동(보람유치원 부근)']</div>`)[0];
+            popup_6905a161393543e5a1530b97575a908f.setContent(html_d9df86bc649e43f6833e384bd3b8c58b);
+        
+
+        circle_marker_081f111ad66b433786f83282bd56d732.bindPopup(popup_6905a161393543e5a1530b97575a908f)
+        ;
+
+        
+    
+    
+            var circle_marker_0feb50feccea44fdb56dd87a0eea8fb2 = L.circleMarker(
+                [37.344318406270006, 126.805472099759],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_65e70712b8b841809cdf10674a6232ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e7a7630a0e9493f94a3ece5e69a4a6f = $(`<div id="html_3e7a7630a0e9493f94a3ece5e69a4a6f" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(석수초교 부근)']</div>`)[0];
+            popup_65e70712b8b841809cdf10674a6232ff.setContent(html_3e7a7630a0e9493f94a3ece5e69a4a6f);
+        
+
+        circle_marker_0feb50feccea44fdb56dd87a0eea8fb2.bindPopup(popup_65e70712b8b841809cdf10674a6232ff)
+        ;
+
+        
+    
+    
+            var circle_marker_3a6106517d9141e48b9e6ff3cdbe56c0 = L.circleMarker(
+                [37.340281280358, 126.82314453159599],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_9c401cab85e24138965841f65c7831c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2158c8cb31ee4d2a9c30c9fa4840cc42 = $(`<div id="html_2158c8cb31ee4d2a9c30c9fa4840cc42" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 와동(덕인초교 부근)']</div>`)[0];
+            popup_9c401cab85e24138965841f65c7831c2.setContent(html_2158c8cb31ee4d2a9c30c9fa4840cc42);
+        
+
+        circle_marker_3a6106517d9141e48b9e6ff3cdbe56c0.bindPopup(popup_9c401cab85e24138965841f65c7831c2)
+        ;
+
+        
+    
+    
+            var circle_marker_5be27568e2094005899225562be1714c = L.circleMarker(
+                [37.291460766502, 126.86300000165001],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_f2381e130682475caedde3e44b024abb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e34308142ee7458cb1bd5537822b8d19 = $(`<div id="html_e34308142ee7458cb1bd5537822b8d19" style="width: 100.0%; height: 100.0%;">['경기도 안산시 상록구 본오동(본원초교 부근)']</div>`)[0];
+            popup_f2381e130682475caedde3e44b024abb.setContent(html_e34308142ee7458cb1bd5537822b8d19);
+        
+
+        circle_marker_5be27568e2094005899225562be1714c.bindPopup(popup_f2381e130682475caedde3e44b024abb)
+        ;
+
+        
+    
+    
+            var circle_marker_ed029242eed1438bbaf3fa658d537045 = L.circleMarker(
+                [37.241307591373, 127.054255689749],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_1d6caf9eed974d6c94f23a5b98a1c075 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc02dc5778e04a7a85d10fe568a52634 = $(`<div id="html_fc02dc5778e04a7a85d10fe568a52634" style="width: 100.0%; height: 100.0%;">['경기도 수원시 영통구 망포동(태장초교 부근)']</div>`)[0];
+            popup_1d6caf9eed974d6c94f23a5b98a1c075.setContent(html_fc02dc5778e04a7a85d10fe568a52634);
+        
+
+        circle_marker_ed029242eed1438bbaf3fa658d537045.bindPopup(popup_1d6caf9eed974d6c94f23a5b98a1c075)
+        ;
+
+        
+    
+    
+            var circle_marker_79c45aeeb6cc41e4877f186d7563d8be = L.circleMarker(
+                [37.311003479728, 126.81346898830401],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 35, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_74c7f4642f294188ae1b68efa6430a9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d15e671973334198a377e262f8cad314 = $(`<div id="html_d15e671973334198a377e262f8cad314" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 초지동(초지초교 부근)']</div>`)[0];
+            popup_74c7f4642f294188ae1b68efa6430a9b.setContent(html_d15e671973334198a377e262f8cad314);
+        
+
+        circle_marker_79c45aeeb6cc41e4877f186d7563d8be.bindPopup(popup_74c7f4642f294188ae1b68efa6430a9b)
+        ;
+
+        
+    
+    
+            var circle_marker_9f4d3b26f3034940ab2d423c02bfb2e2 = L.circleMarker(
+                [37.331603631104, 126.817938916549],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_72d0c9153523488ba7f4313ad9120e50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cc8c30348e74da996d3c8436bfc08fc = $(`<div id="html_4cc8c30348e74da996d3c8436bfc08fc" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 와동(화랑초교 부근)']</div>`)[0];
+            popup_72d0c9153523488ba7f4313ad9120e50.setContent(html_4cc8c30348e74da996d3c8436bfc08fc);
+        
+
+        circle_marker_9f4d3b26f3034940ab2d423c02bfb2e2.bindPopup(popup_72d0c9153523488ba7f4313ad9120e50)
+        ;
+
+        
+    
+    
+            var circle_marker_e40d267deb8847f6a25fbd88e086f008 = L.circleMarker(
+                [37.126554743108, 126.917678271236],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_65b05defc3584772a3515c7103146021 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_785734df3c084e62af2b34a296818d60 = $(`<div id="html_785734df3c084e62af2b34a296818d60" style="width: 100.0%; height: 100.0%;">['경기도 화성시 향남읍(한울초교 부근)']</div>`)[0];
+            popup_65b05defc3584772a3515c7103146021.setContent(html_785734df3c084e62af2b34a296818d60);
+        
+
+        circle_marker_e40d267deb8847f6a25fbd88e086f008.bindPopup(popup_65b05defc3584772a3515c7103146021)
+        ;
+
+        
+    
+    
+            var circle_marker_97871231230f4f94bd5146f4c9531f57 = L.circleMarker(
+                [37.336341400836, 126.83051612062401],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_a3f569e7540a4d7cb27a9783bc870614 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6da47fdc32dc4cc9ba637295e3fc9e81 = $(`<div id="html_6da47fdc32dc4cc9ba637295e3fc9e81" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 와동(와동초교 부근)']</div>`)[0];
+            popup_a3f569e7540a4d7cb27a9783bc870614.setContent(html_6da47fdc32dc4cc9ba637295e3fc9e81);
+        
+
+        circle_marker_97871231230f4f94bd5146f4c9531f57.bindPopup(popup_a3f569e7540a4d7cb27a9783bc870614)
+        ;
+
+        
+    
+    
+            var circle_marker_2c7e82a150e4411a8d21fa07a2d5779b = L.circleMarker(
+                [37.294346083906, 127.43389409263901],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_50b5a6902a334857a9a26cd84e1e8b34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4df7859802174926ad9c271dc04a1443 = $(`<div id="html_4df7859802174926ad9c271dc04a1443" style="width: 100.0%; height: 100.0%;">['경기도 이천시 송정동(송정초교 부근)']</div>`)[0];
+            popup_50b5a6902a334857a9a26cd84e1e8b34.setContent(html_4df7859802174926ad9c271dc04a1443);
+        
+
+        circle_marker_2c7e82a150e4411a8d21fa07a2d5779b.bindPopup(popup_50b5a6902a334857a9a26cd84e1e8b34)
+        ;
+
+        
+    
+    
+            var circle_marker_972a228763994f1ebe0edab32d9d6194 = L.circleMarker(
+                [37.481211367212, 126.781857567474],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_6ccfce08212b4d4aad5d36384b812e7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c347d54963a4cfb89a07d653bf9cac0 = $(`<div id="html_5c347d54963a4cfb89a07d653bf9cac0" style="width: 100.0%; height: 100.0%;">['경기도 부천시 소사구 심곡본동(부천남초교 부근)']</div>`)[0];
+            popup_6ccfce08212b4d4aad5d36384b812e7e.setContent(html_5c347d54963a4cfb89a07d653bf9cac0);
+        
+
+        circle_marker_972a228763994f1ebe0edab32d9d6194.bindPopup(popup_6ccfce08212b4d4aad5d36384b812e7e)
+        ;
+
+        
+    
+    
+            var circle_marker_34ca987acc0349379afb9ede175e1f17 = L.circleMarker(
+                [37.345074554448, 126.815376329855],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_0c550d78b0d44848bffd817841b584d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be63f9b7c7c6404aa9535a2d2a8986e1 = $(`<div id="html_be63f9b7c7c6404aa9535a2d2a8986e1" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(안산화정초교 부근)']</div>`)[0];
+            popup_0c550d78b0d44848bffd817841b584d3.setContent(html_be63f9b7c7c6404aa9535a2d2a8986e1);
+        
+
+        circle_marker_34ca987acc0349379afb9ede175e1f17.bindPopup(popup_0c550d78b0d44848bffd817841b584d3)
+        ;
+
+        
+    
+    
+            var circle_marker_b5520efb2c2043918ffc61d70f29a670 = L.circleMarker(
+                [37.833794445158, 127.14431035324101],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_ef5fe994ae214f1c9784e372f549f160 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b2e5e9206414f39b9d7612c1d6d79f5 = $(`<div id="html_1b2e5e9206414f39b9d7612c1d6d79f5" style="width: 100.0%; height: 100.0%;">['경기도 포천시 소흘읍(태봉초교 부근)']</div>`)[0];
+            popup_ef5fe994ae214f1c9784e372f549f160.setContent(html_1b2e5e9206414f39b9d7612c1d6d79f5);
+        
+
+        circle_marker_b5520efb2c2043918ffc61d70f29a670.bindPopup(popup_ef5fe994ae214f1c9784e372f549f160)
+        ;
+
+        
+    
+    
+            var circle_marker_29097996b50a493d96bc00f617892d2b = L.circleMarker(
+                [37.518552094505, 126.80715336253901],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_45a248688c324ead88995440e14c40ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52083d4e4a0a4a94ba0e63d5aebe557c = $(`<div id="html_52083d4e4a0a4a94ba0e63d5aebe557c" style="width: 100.0%; height: 100.0%;">['경기도 부천시 오정구 원종동(원종초교 부근)']</div>`)[0];
+            popup_45a248688c324ead88995440e14c40ed.setContent(html_52083d4e4a0a4a94ba0e63d5aebe557c);
+        
+
+        circle_marker_29097996b50a493d96bc00f617892d2b.bindPopup(popup_45a248688c324ead88995440e14c40ed)
+        ;
+
+        
+    
+    
+            var circle_marker_f8d670400161458281c7147ce47320c6 = L.circleMarker(
+                [37.267825989579, 126.95695730463699],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_882749e136b34cb98b0dc36eae49cc55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31f81be784c84a578390682e5a7d55db = $(`<div id="html_31f81be784c84a578390682e5a7d55db" style="width: 100.0%; height: 100.0%;">['경기도 수원시 권선구 고색동(호매실초교 부근)']</div>`)[0];
+            popup_882749e136b34cb98b0dc36eae49cc55.setContent(html_31f81be784c84a578390682e5a7d55db);
+        
+
+        circle_marker_f8d670400161458281c7147ce47320c6.bindPopup(popup_882749e136b34cb98b0dc36eae49cc55)
+        ;
+
+        
+    
+    
+            var circle_marker_58285720943d437f9ca18dcd0bb6d884 = L.circleMarker(
+                [37.344889266228, 126.81545646124799],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_db1212a9e5a249388f7ad2e02e4d078d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39c1dabc235f4e519ec7971b12c07ba1 = $(`<div id="html_39c1dabc235f4e519ec7971b12c07ba1" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(안산화정초교 부근)']</div>`)[0];
+            popup_db1212a9e5a249388f7ad2e02e4d078d.setContent(html_39c1dabc235f4e519ec7971b12c07ba1);
+        
+
+        circle_marker_58285720943d437f9ca18dcd0bb6d884.bindPopup(popup_db1212a9e5a249388f7ad2e02e4d078d)
+        ;
+
+        
+    
+    
+            var circle_marker_40a4be2f0b5e4edf98ccab6dfc6bf186 = L.circleMarker(
+                [37.393562223818996, 126.97956129481899],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_1210ad13642541e69f6e5b989e38e4bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adcadcd4b9494f39841dabc6a3c4d968 = $(`<div id="html_adcadcd4b9494f39841dabc6a3c4d968" style="width: 100.0%; height: 100.0%;">['경기도 안양시 동안구 평촌동(벌말초교 부근)']</div>`)[0];
+            popup_1210ad13642541e69f6e5b989e38e4bd.setContent(html_adcadcd4b9494f39841dabc6a3c4d968);
+        
+
+        circle_marker_40a4be2f0b5e4edf98ccab6dfc6bf186.bindPopup(popup_1210ad13642541e69f6e5b989e38e4bd)
+        ;
+
+        
+    
+    
+            var circle_marker_eea75681e3364d16b88cc31abb556ae9 = L.circleMarker(
+                [37.14436196983, 127.049208686333],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_eb593bb18bf9400ea56feffc0d82c729 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a1cb4be1ef845f6aab37b3ebdd1f45c = $(`<div id="html_4a1cb4be1ef845f6aab37b3ebdd1f45c" style="width: 100.0%; height: 100.0%;">['경기도 오산시 가수동(오산초교 부근)']</div>`)[0];
+            popup_eb593bb18bf9400ea56feffc0d82c729.setContent(html_4a1cb4be1ef845f6aab37b3ebdd1f45c);
+        
+
+        circle_marker_eea75681e3364d16b88cc31abb556ae9.bindPopup(popup_eb593bb18bf9400ea56feffc0d82c729)
+        ;
+
+        
+    
+    
+            var circle_marker_e94c25f17d5e4c27816b953e35b7caa4 = L.circleMarker(
+                [37.058406075381, 127.070028391898],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_a797c0d70fe54811928f839caac518f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58dca4618bce489489c2ebe84402fcbc = $(`<div id="html_58dca4618bce489489c2ebe84402fcbc" style="width: 100.0%; height: 100.0%;">['경기도 평택시 이충동(반지초교 부근)']</div>`)[0];
+            popup_a797c0d70fe54811928f839caac518f6.setContent(html_58dca4618bce489489c2ebe84402fcbc);
+        
+
+        circle_marker_e94c25f17d5e4c27816b953e35b7caa4.bindPopup(popup_a797c0d70fe54811928f839caac518f6)
+        ;
+
+        
+    
+    
+            var circle_marker_f61bad50f6e146c5b87beef728619df9 = L.circleMarker(
+                [37.201517165686, 127.055977245754],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_1089faf89fa4417eaf86d2d45ceb47ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2eb2a205c5c1448f871dad3cfd86ee2c = $(`<div id="html_2eb2a205c5c1448f871dad3cfd86ee2c" style="width: 100.0%; height: 100.0%;">['경기도 화성시 능동(푸른초교 부근)']</div>`)[0];
+            popup_1089faf89fa4417eaf86d2d45ceb47ad.setContent(html_2eb2a205c5c1448f871dad3cfd86ee2c);
+        
+
+        circle_marker_f61bad50f6e146c5b87beef728619df9.bindPopup(popup_1089faf89fa4417eaf86d2d45ceb47ad)
+        ;
+
+        
+    
+    
+            var circle_marker_d65beeb5aba64a05872115d607771daf = L.circleMarker(
+                [37.434256866562, 126.885246353038],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_9ee0cc0fbcbb41559410e44530c05fad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e696309b8aea4c04aec5a38e06e8d533 = $(`<div id="html_e696309b8aea4c04aec5a38e06e8d533" style="width: 100.0%; height: 100.0%;">['경기도 광명시 소하동(충현초교 부근)']</div>`)[0];
+            popup_9ee0cc0fbcbb41559410e44530c05fad.setContent(html_e696309b8aea4c04aec5a38e06e8d533);
+        
+
+        circle_marker_d65beeb5aba64a05872115d607771daf.bindPopup(popup_9ee0cc0fbcbb41559410e44530c05fad)
+        ;
+
+        
+    
+    
+            var circle_marker_550fe7b9cd2345fa9922cc220efb75ab = L.circleMarker(
+                [37.367704833611995, 126.93321723328998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_03a11f8ebfa24bcc86fb4f540d611cca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d61dd29e0e104e1089785a3256e680b4 = $(`<div id="html_d61dd29e0e104e1089785a3256e680b4" style="width: 100.0%; height: 100.0%;">['경기도 군포시 산본동(산본초교입구사거리 부근)']</div>`)[0];
+            popup_03a11f8ebfa24bcc86fb4f540d611cca.setContent(html_d61dd29e0e104e1089785a3256e680b4);
+        
+
+        circle_marker_550fe7b9cd2345fa9922cc220efb75ab.bindPopup(popup_03a11f8ebfa24bcc86fb4f540d611cca)
+        ;
+
+        
+    
+    
+            var circle_marker_48e0433c13ec443e8baa449da762a2ba = L.circleMarker(
+                [37.490022740258006, 126.81671019711901],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_ab1b66a3e7d048b6945593252631aae0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61f5eddc23844d67bc2d31eaeb3abb58 = $(`<div id="html_61f5eddc23844d67bc2d31eaeb3abb58" style="width: 100.0%; height: 100.0%;">['경기도 부천시 원미구 역곡동(동곡초교 부근)']</div>`)[0];
+            popup_ab1b66a3e7d048b6945593252631aae0.setContent(html_61f5eddc23844d67bc2d31eaeb3abb58);
+        
+
+        circle_marker_48e0433c13ec443e8baa449da762a2ba.bindPopup(popup_ab1b66a3e7d048b6945593252631aae0)
+        ;
+
+        
+    
+    
+            var circle_marker_486933d313324be4b06af56e4db29490 = L.circleMarker(
+                [37.686499525234, 126.767202895299],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_77bd8112a52d4ed4ac891573acd8d2f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a43681ba2ba1476b9d1f31964079cac0 = $(`<div id="html_a43681ba2ba1476b9d1f31964079cac0" style="width: 100.0%; height: 100.0%;">['경기도 고양시 일산서구 일산동(한뫼초교 부근)']</div>`)[0];
+            popup_77bd8112a52d4ed4ac891573acd8d2f7.setContent(html_a43681ba2ba1476b9d1f31964079cac0);
+        
+
+        circle_marker_486933d313324be4b06af56e4db29490.bindPopup(popup_77bd8112a52d4ed4ac891573acd8d2f7)
+        ;
+
+        
+    
+    
+            var circle_marker_e718464ea3bf47d286a2448ec2f0041c = L.circleMarker(
+                [37.600652987446, 127.156887845998],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_6b2d4ed13a8c4682afd817f9165f20cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32af89df4d754114b5772877e58cf62b = $(`<div id="html_32af89df4d754114b5772877e58cf62b" style="width: 100.0%; height: 100.0%;">['경기도 남양주시 가운동(가운초교 부근)']</div>`)[0];
+            popup_6b2d4ed13a8c4682afd817f9165f20cc.setContent(html_32af89df4d754114b5772877e58cf62b);
+        
+
+        circle_marker_e718464ea3bf47d286a2448ec2f0041c.bindPopup(popup_6b2d4ed13a8c4682afd817f9165f20cc)
+        ;
+
+        
+    
+    
+            var circle_marker_a443ebe9e82f409c91469cfce16c71b4 = L.circleMarker(
+                [37.490115001707004, 126.76012162991002],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_f2219f8590b741c0a3404a5e7ea9eabb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dadead4c30549928431fc5fa2400397 = $(`<div id="html_6dadead4c30549928431fc5fa2400397" style="width: 100.0%; height: 100.0%;">['경기도 부천시 원미구 상동(송내초교 부근)']</div>`)[0];
+            popup_f2219f8590b741c0a3404a5e7ea9eabb.setContent(html_6dadead4c30549928431fc5fa2400397);
+        
+
+        circle_marker_a443ebe9e82f409c91469cfce16c71b4.bindPopup(popup_f2219f8590b741c0a3404a5e7ea9eabb)
+        ;
+
+        
+    
+    
+            var circle_marker_bf8a667d054b433aa2aebea42c79f79d = L.circleMarker(
+                [37.262664037516, 127.04464748769199],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_05f21db1aa4e47f2864c08b43941c0ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46d525cccb184da88f5db127753ad483 = $(`<div id="html_46d525cccb184da88f5db127753ad483" style="width: 100.0%; height: 100.0%;">['경기도 수원시 영통구 매탄동(매탄초교 효동초교 부근)']</div>`)[0];
+            popup_05f21db1aa4e47f2864c08b43941c0ff.setContent(html_46d525cccb184da88f5db127753ad483);
+        
+
+        circle_marker_bf8a667d054b433aa2aebea42c79f79d.bindPopup(popup_05f21db1aa4e47f2864c08b43941c0ff)
+        ;
+
+        
+    
+    
+            var circle_marker_1071c96c496641709c1156a2027691c7 = L.circleMarker(
+                [37.331411397419, 126.81807314576],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_87a4fb54b805462fb36f8013bebafb45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2495abc579ad4877936f2d068410c600 = $(`<div id="html_2495abc579ad4877936f2d068410c600" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(화랑초교 부근)']</div>`)[0];
+            popup_87a4fb54b805462fb36f8013bebafb45.setContent(html_2495abc579ad4877936f2d068410c600);
+        
+
+        circle_marker_1071c96c496641709c1156a2027691c7.bindPopup(popup_87a4fb54b805462fb36f8013bebafb45)
+        ;
+
+        
+    
+    
+            var circle_marker_46e31db8e2de4527a14d79ad7a3cadc4 = L.circleMarker(
+                [37.345343501203, 126.81646111818701],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_08e27aea23874705a8076731b4f78543 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ff442c9952d4446956a1403473bf1f3 = $(`<div id="html_5ff442c9952d4446956a1403473bf1f3" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(안산화정초교 부근)']</div>`)[0];
+            popup_08e27aea23874705a8076731b4f78543.setContent(html_5ff442c9952d4446956a1403473bf1f3);
+        
+
+        circle_marker_46e31db8e2de4527a14d79ad7a3cadc4.bindPopup(popup_08e27aea23874705a8076731b4f78543)
+        ;
+
+        
+    
+    
+            var circle_marker_352e3b7797b54ff6b4d0160acbeb13f5 = L.circleMarker(
+                [37.723345117284005, 127.053496816626],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_a35a48676bd14a569e37712ad8dc0b6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_117fc259e75046349eede2ff887de276 = $(`<div id="html_117fc259e75046349eede2ff887de276" style="width: 100.0%; height: 100.0%;">['경기도 의정부시 장암동(동암초교 부근)']</div>`)[0];
+            popup_a35a48676bd14a569e37712ad8dc0b6d.setContent(html_117fc259e75046349eede2ff887de276);
+        
+
+        circle_marker_352e3b7797b54ff6b4d0160acbeb13f5.bindPopup(popup_a35a48676bd14a569e37712ad8dc0b6d)
+        ;
+
+        
+    
+    
+            var circle_marker_5585b3c5a6294ec4975410adff77cade = L.circleMarker(
+                [37.050395508147, 127.05735663130501],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_b3d300e7d1c542bd9efaaa9dc734d672 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4f6be91e109482eb7464072bb6b712a = $(`<div id="html_f4f6be91e109482eb7464072bb6b712a" style="width: 100.0%; height: 100.0%;">['경기도 평택시 장당동(장당초교 부근)']</div>`)[0];
+            popup_b3d300e7d1c542bd9efaaa9dc734d672.setContent(html_f4f6be91e109482eb7464072bb6b712a);
+        
+
+        circle_marker_5585b3c5a6294ec4975410adff77cade.bindPopup(popup_b3d300e7d1c542bd9efaaa9dc734d672)
+        ;
+
+        
+    
+    
+            var circle_marker_30e718e992a04b97bcce3b4654b88d86 = L.circleMarker(
+                [37.372254903142, 127.24749411316401],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_baab9eeda3ab4bb2a20c60fdeb5993b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95c9ad48e0444fc2910a7b14da15e9ed = $(`<div id="html_95c9ad48e0444fc2910a7b14da15e9ed" style="width: 100.0%; height: 100.0%;">['경기도 광주시 오포읍(매곡초교 부근)']</div>`)[0];
+            popup_baab9eeda3ab4bb2a20c60fdeb5993b3.setContent(html_95c9ad48e0444fc2910a7b14da15e9ed);
+        
+
+        circle_marker_30e718e992a04b97bcce3b4654b88d86.bindPopup(popup_baab9eeda3ab4bb2a20c60fdeb5993b3)
+        ;
+
+        
+    
+    
+            var circle_marker_589afe58dfcf426396a3a7d28de4cddf = L.circleMarker(
+                [37.337717115353996, 126.829916887056],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 42, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_204ef5b2cf2c41d6b6358765204cbfcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a64c4f01413743aa8a875e266b2df63a = $(`<div id="html_a64c4f01413743aa8a875e266b2df63a" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 와동(와동초교 부근)']</div>`)[0];
+            popup_204ef5b2cf2c41d6b6358765204cbfcc.setContent(html_a64c4f01413743aa8a875e266b2df63a);
+        
+
+        circle_marker_589afe58dfcf426396a3a7d28de4cddf.bindPopup(popup_204ef5b2cf2c41d6b6358765204cbfcc)
+        ;
+
+        
+    
+    
+            var circle_marker_035e759b2f1c4a95a5149f4ff6ee0a76 = L.circleMarker(
+                [37.471515629643996, 127.316531044873],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_ca7207b4e1454e449ee58873f843c194 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc7ac4b3c5364b96ae49be3a6e882d68 = $(`<div id="html_cc7ac4b3c5364b96ae49be3a6e882d68" style="width: 100.0%; height: 100.0%;">['경기도 광주시 퇴촌면(도수초교 부근)']</div>`)[0];
+            popup_ca7207b4e1454e449ee58873f843c194.setContent(html_cc7ac4b3c5364b96ae49be3a6e882d68);
+        
+
+        circle_marker_035e759b2f1c4a95a5149f4ff6ee0a76.bindPopup(popup_ca7207b4e1454e449ee58873f843c194)
+        ;
+
+        
+    
+    
+            var circle_marker_380a64bda9d0466bb71b6fe866bd8b3f = L.circleMarker(
+                [37.339829620142005, 126.800183438616],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_baf4bb3ca15542dd91a900683ab9efb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7103b40966f74c438c6f82b316a95abc = $(`<div id="html_7103b40966f74c438c6f82b316a95abc" style="width: 100.0%; height: 100.0%;">['경기도 안산시 단원구 선부동(선일초교 부근)']</div>`)[0];
+            popup_baf4bb3ca15542dd91a900683ab9efb9.setContent(html_7103b40966f74c438c6f82b316a95abc);
+        
+
+        circle_marker_380a64bda9d0466bb71b6fe866bd8b3f.bindPopup(popup_baf4bb3ca15542dd91a900683ab9efb9)
+        ;
+
+        
+    
+    
+            var circle_marker_21fa618efbbe44a9beefa620471138b8 = L.circleMarker(
+                [37.058639804684, 127.05728959673901],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_c480638f183b405b9277ee58a1bc4f74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60531c4ae2134456b6d8f39e8c8c66ea = $(`<div id="html_60531c4ae2134456b6d8f39e8c8c66ea" style="width: 100.0%; height: 100.0%;">['경기도 평택시 서정동(서정리초교 부근)']</div>`)[0];
+            popup_c480638f183b405b9277ee58a1bc4f74.setContent(html_60531c4ae2134456b6d8f39e8c8c66ea);
+        
+
+        circle_marker_21fa618efbbe44a9beefa620471138b8.bindPopup(popup_c480638f183b405b9277ee58a1bc4f74)
+        ;
+
+        
+    
+    
+            var circle_marker_8b127c2029364e27860986ba79a7b4cd = L.circleMarker(
+                [37.488156579563, 126.867871562624],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_9d841ea165d44b489dffcff7e7eeee15);
+        
+    
+        var popup_dd5659874d154f488abe756dc3b654fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1aee3744d53148499fa3f7ea7b891212 = $(`<div id="html_1aee3744d53148499fa3f7ea7b891212" style="width: 100.0%; height: 100.0%;">['경기도 광명시 철산동(광명북초교 부근)']</div>`)[0];
+            popup_dd5659874d154f488abe756dc3b654fe.setContent(html_1aee3744d53148499fa3f7ea7b891212);
+        
+
+        circle_marker_8b127c2029364e27860986ba79a7b4cd.bindPopup(popup_dd5659874d154f488abe756dc3b654fe)
+        ;
+
+        
+    
+</script>

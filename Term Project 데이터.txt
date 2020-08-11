@@ -1,0 +1,2 @@
+스쿨존내 어린이 사고 다발지 현황: https://openapi.gg.go.kr/Tbtninsttm
+어린이보호구역 현황 : https://openapi.gg.go.kr/ChildProtectionArea
