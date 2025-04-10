@@ -1,2 +1,36 @@
-# TermProject
- Analysis of Accidents in School Zone
+# 🚸 경기도 어린이보호구역(CCTV, 사고 데이터) 시각화 프로젝트
+
+본 프로젝트는 경기도 어린이보호구역(스쿨존)의 **CCTV 설치 현황**, **사고 발생 정보**, **도로 폭 정보** 등을 시각화하여 분석하는 것입니다.  
+공공 데이터 API를 활용하여 수집된 데이터를 기반으로 **Folium 지도 시각화**, **Choropleth(단계 구분도)**, 그리고 **산점도(Scatter Plot)** 분석을 수행합니다.
+
+---
+
+## 📦 주요 기능
+
+### ✅ 공공 API로부터 스쿨존 정보 수집
+- CCTV 설치 여부 및 대수
+- 보호구역 도로 폭 정보
+- 위치 좌표 (Latitude, Longitude)
+
+### ✅ 스쿨존 사고 정보 수집
+- 사고 발생 건수, 사상자 수, 사망자 수
+- 위치 좌표 (Latitude, Longitude)
+
+### ✅ Folium을 이용한 지도 시각화
+- CCTV 개수에 따른 색상 구분 Circle Marker
+- 사고 사망자/사상자 수에 따른 사고 밀집 지역 시각화
+- Choropleth Map을 통한 행정구역별 CCTV 밀도 시각화
+
+### ✅ Pandas & Matplotlib을 이용한 분석 그래프
+- 사상자 수 vs. CCTV 개수
+- 사상자 수 vs. 도로 폭
+
+---
+
+## 🗂️ 데이터 출처
+
+- **경기도 공공데이터포털 API**
+  - 어린이보호구역 정보 API
+  - 어린이보호구역 교통사고 정보 API
+- **행정구역 GeoJSON**
+  - `TL_SCCO_SIG.json` (행정동별 경계)
